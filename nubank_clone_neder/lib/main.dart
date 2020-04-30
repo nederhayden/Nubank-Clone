@@ -14,10 +14,10 @@ class Nubank extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         // definir tema padrao
         theme: ThemeData(
-          // cor principal
+          brightness: Brightness.dark,
           primaryColor: Colors.purple[600],
         ),
-        initialRoute: '/',
+        initialRoute: '/home',
         routes: {
           '/': (context) => SplashScreen(),
           '/home': (context) => HomeScreen(),

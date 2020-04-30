@@ -29,7 +29,7 @@ class SplashScreen extends StatelessWidget {
               Expanded(
                 child: ButtonOutline(
                   text: 'AUTENTICAR',
-                  onPressed: () {},
+                  onPressed: () => Navigator.pushNamed(context, '/home'),
                 ),
               ),
             ],
