@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nubank_clone_neder/components/text.dart';
 
+
 class Appbar extends StatelessWidget {
   final bool showMenu;
   final VoidCallback onTap;
@@ -33,6 +34,7 @@ class Appbar extends StatelessWidget {
               ),
             ],
           ),
+          SizedBox(height: 10),
           Icon(!showMenu ? Icons.expand_more : Icons.expand_less),
         ],
       ),
